@@ -1,7 +1,12 @@
 body {
-	background-image: url(/img/background_index.jpg);
+	/*Want to change background image?*/
+	/*Upload a new one to the img folder.*/
+	/*Make sure you name it 'minecraft.jpg'*/
+	background: url("https://cdn.mumc.top/2b2t/img/minecraft.jpg") no-repeat center center fixed;
 	background-size: cover;
-	background-attachment: fixed;
+	font-family: Helvetica;
+	margin: 0;
+	width: 100%;
 }
 
 html, body {
@@ -17,6 +22,15 @@ p {
 
 .container {
 	text-align: center;
+}
+
+#footer {
+	width: 400px;
+	height: 120px;
+	background-color: #00FFFF;
+	border-radius: 30px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .logo img {
@@ -37,15 +51,6 @@ p {
 	100% {
 		transform: scale(1);
 	}
-}
-
-#footer {
-	width: 400px;
-	height: 120px;
-	background-color: #00FFFF;
-	border-radius: 30px;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .playercount {
