@@ -57,9 +57,7 @@ p {
 	width: 300px;
 	background-color: #FFFFFF;
 	border-radius: 30px;
-	filter:alpha(Opacity=60);
-	-moz-opacity:0.6;
-	opacity: 0.6;
+	background: linear-gradient(to top left,rgb(26, 25, 25),rgba(137, 137, 137, 0.19));
 }
 
 .playercount span {
