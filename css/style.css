@@ -1,0 +1,26 @@
+body {
+	background-image: url(/img/background_index.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+html, body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#footer {
+	width: 400px;
+	height: 120px;
+	background-color: #00FFFF;
+	border-radius: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.playercount {
+	width: 300px;
+	background-color: #FFFFFF;
+	border-radius: 30px;
+}
